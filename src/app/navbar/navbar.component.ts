@@ -15,29 +15,36 @@ export class NavbarComponent implements OnInit {
 
   onChangeTheme() {
     //funkcja zmieniająca motyw strony  (wersja wstępna)
-    const themeBtn = document.getElementById('light_dark_theme_btn'); //staa z przypisaną wartością przycisku
+    const themeBtn = document.getElementById('light_dark_theme_btn'); //staa z przypisaną wartością przycisku motywu
     const nav = document.getElementById('navbar'); //stala z przypisaną wartością diva o id navbar
+    const loginBtn = document.getElementById('login_btn'); //stala z przypisaną wartością przycisku logowania
 
     if (this.themeStatus) {
       //if sprawdzający czy zmienna themeStatus jest prawdziwa
       this.themeStatus = false;
       this.themeSymbol = '☾';
 
-      nav.style.backgroundColor = 'lightgreen';
+      nav.style.backgroundColor = 'limegreen';
       nav.style.color = 'black';
 
       themeBtn.style.backgroundColor = 'antiquewhite';
       themeBtn.style.color = 'black';
+
+      loginBtn.style.backgroundColor = 'limegreen';
+      loginBtn.style.color = 'black';
     } else {
       //else w którym polecenia będą wykonywane, gdy zmienna themeStatus będzie faszywa
       this.themeStatus = true;
       this.themeSymbol = '☼';
 
-      nav.style.backgroundColor = 'darkgreen';
+      nav.style.backgroundColor = 'dimgray';
       nav.style.color = 'white';
 
-      themeBtn.style.backgroundColor = 'dimgray';
+      themeBtn.style.backgroundColor = 'gray';
       themeBtn.style.color = ' white';
+
+      loginBtn.style.backgroundColor = 'gray';
+      loginBtn.style.color = 'white';
     }
   }
 }
