@@ -4,7 +4,8 @@
   background-color: lightgreen;
 }
 
-#light_dark_theme_btn {
+#light_dark_theme_btn,
+#login_btn {
   width: 10vw;
   height: 6vh;
   margin-right: 1vw;

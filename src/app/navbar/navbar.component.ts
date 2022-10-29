@@ -30,7 +30,7 @@ export class NavbarComponent implements OnInit {
       themeBtn.style.backgroundColor = 'antiquewhite';
       themeBtn.style.color = 'black';
 
-      loginBtn.style.backgroundColor = 'limegreen';
+      loginBtn.style.backgroundColor = 'antiquewhite';
       loginBtn.style.color = 'black';
     } else {
       //else w którym polecenia będą wykonywane, gdy zmienna themeStatus będzie faszywa
