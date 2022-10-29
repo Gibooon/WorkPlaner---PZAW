@@ -7,21 +7,12 @@
 
 .bar {
   width: 100vw;
-  height: 20vh;
+  height: 10vh;
 }
 
 .block {
-  height: 60vh;
+  height: 70vh;
   display: inline-flex;
-}
-
-#navbar {
-  background-color: bisque;
-}
-
-#light_dark_mode_btn {
-  width: 20vw;
-  height: 10vh;
 }
 
 #content {
