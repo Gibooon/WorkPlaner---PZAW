@@ -5,26 +5,29 @@
   padding: 0;
 }
 
-.bar {
-  width: 100vw;
-  height: 10vh;
-}
-
 .block {
-  height: 70vh;
+  height: 80vh;
   display: inline-flex;
 }
 
 #content {
   width: 70vw;
   background-color: blueviolet;
+  float: left;
 }
 
 #aside {
   width: 30vw;
   background-color: chartreuse;
+  float: right;
 }
 
 #footer {
   background-color: coral;
+  width: 100vw;
+  height: 10vh;
+}
+
+.container {
+  display: inline-block;
 }
