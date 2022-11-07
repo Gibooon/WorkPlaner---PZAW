@@ -19,6 +19,8 @@ export class NavbarComponent implements OnInit {
     const navDiv = document.getElementById('navbar'); //stala z przypisaną wartością diva o id 'navbar'
     const loginBtn = document.getElementById('login_btn'); //stala z przypisaną wartością przycisku logowania
     const footDiv = document.getElementById('footer'); //stala z przypisaną wartością diva o id 'footer'
+    const optionsDiv = document.getElementById('aside'); //stala z przypisaną wartością diva o id 'aside'
+    const contentDiv = document.getElementById('content'); //stala z przypisaną wartością diva o id 'content'
 
     if (this.themeStatus) {
       //if sprawdzający czy zmienna themeStatus jest prawdziwa
@@ -36,6 +38,12 @@ export class NavbarComponent implements OnInit {
 
       footDiv.style.backgroundColor = 'coral';
       footDiv.style.color = 'black';
+
+      optionsDiv.style.backgroundColor = 'chartreuse';
+      optionsDiv.style.color = 'black';
+
+      contentDiv.style.backgroundColor = 'blueviolet';
+      contentDiv.style.color = 'black';
     } else {
       //else w którym polecenia będą wykonywane, gdy zmienna themeStatus będzie faszywa
       this.themeStatus = true;
@@ -52,6 +60,12 @@ export class NavbarComponent implements OnInit {
 
       footDiv.style.backgroundColor = 'dimgray';
       footDiv.style.color = 'white';
+
+      optionsDiv.style.backgroundColor = '#666464';
+      optionsDiv.style.color = 'white';
+
+      contentDiv.style.backgroundColor = '#434343';
+      contentDiv.style.color = 'white';
     }
   }
 }
