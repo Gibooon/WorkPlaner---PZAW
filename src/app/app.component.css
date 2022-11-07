@@ -8,6 +8,7 @@
 .block {
   height: 80vh;
   display: inline-flex;
+  text-align: center;
 }
 
 #content {
@@ -30,4 +31,11 @@
 
 .container {
   display: inline-block;
+}
+
+#addProject {
+  height: 5vh;
+  width: 10vw;
+  border: 2px black solid;
+  background-color: darksalmon;
 }
