@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'add-project',
+  selector: 'app-add-project',
   templateUrl: './add-project.component.html',
   styleUrls: ['./add-project.component.css'],
 })
@@ -9,4 +9,9 @@ export class AddProjectComponent implements OnInit {
   constructor() {}
 
   ngOnInit() {}
+
+  onAddProject() {
+    const options = document.getElementById('aside');
+    options.innerHTML += "<input type='text'>";
+  }
 }
