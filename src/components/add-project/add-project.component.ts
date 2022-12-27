@@ -16,7 +16,7 @@ export class AddProjectComponent implements OnInit {
     const Color = document.getElementById('color') as HTMLInputElement;
     const Data = document.getElementById('date') as HTMLInputElement;
     const Desc = document.getElementById('description') as HTMLInputElement;
-    cont.innerHTML += `<div  class="projects" style='height:100%; width:25%; background-color:${Color.value}; border:2px black solid;'>
+    cont.innerHTML += `<div  class="projects" style='height:99.5%; width:25%; background-color:${Color.value}; border:2px black solid;'>
       Nazwa projektu: ${Name.value}
       <hr>
       Deadline: ${Data.value}
