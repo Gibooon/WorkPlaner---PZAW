@@ -1,4 +1,11 @@
 <div id="aside" class="block">
-<button id="addProject" (click)="onAddProject()">Dodaj projekt</button>
-Tu będą znajdować się opcje
+  <input id="name" type="text" placeholder="Nazwa projektu" /><br />
+  <select id="color">
+    <option selected disabled>Wybierz kolor tla</option>
+    <option value="pink">Różowy</option>
+    <option value="lime">Limonkowy</option>
+    <option value="lightblue">Jasno niebieski</option></select
+  ><br />
+  Wybierz date deadline'u <input type="date" id="date" /><br />
+  <button id="addProject" (click)="onAddProject()">Dodaj projekt</button>
 </div>
