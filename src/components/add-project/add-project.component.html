@@ -3,9 +3,16 @@
   <select id="color">
     <option selected disabled>Wybierz kolor tla</option>
     <option value="pink">Różowy</option>
-    <option value="lime">Limonkowy</option>
+    <option value="lightgreen">Jasno zielony</option>
     <option value="lightblue">Jasno niebieski</option></select
   ><br />
   Wybierz date deadline'u <input type="date" id="date" /><br />
+  <textarea
+    id="description"
+    placeholder="Opis projektu"
+    rows="15"
+    cols="45"
+  ></textarea
+  ><br />
   <button id="addProject" (click)="onAddProject()">Dodaj projekt</button>
 </div>

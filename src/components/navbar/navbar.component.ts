@@ -65,7 +65,10 @@ export class NavbarComponent implements OnInit {
       optionsDiv.style.color = 'white';
 
       contentDiv.style.backgroundColor = '#434343';
-      contentDiv.style.color = 'white';
+      contentDiv.style.color = 'black';
     }
+  }
+  onLogIn() {
+    alert('Panel logowania w budowie, prosimy o cierpliwośc :)');
   }
 }
