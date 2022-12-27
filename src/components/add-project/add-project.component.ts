@@ -11,7 +11,12 @@ export class AddProjectComponent implements OnInit {
   ngOnInit() {}
 
   onAddProject() {
-    const options = document.getElementById('aside');
-    options.innerHTML += "<input type='text'>";
+    let cont, Name, Color: string;
+    let Data: Date;
+    cont = document.getElementById('content');
+    Name = document.getElementById('name');
+    //Color = document.getElementById('color');
+    //Data = document.getElementById('date');
+    cont.innerHTML = +Name.value;
   }
 }
