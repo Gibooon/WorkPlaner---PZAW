@@ -6,13 +6,12 @@
 }
 
 .block {
-  height: 80vh;
   display: inline-flex;
   text-align: center;
 }
 
 #content {
-  width: 70vw;
+  width: 75vw;
   height: 80vh;
   background-color: #24468e;
   float: left;
@@ -28,4 +27,5 @@
 
 .container {
   display: inline-block;
+  position: fixed;
 }
