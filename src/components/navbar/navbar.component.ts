@@ -27,7 +27,7 @@ export class NavbarComponent implements OnInit {
       this.themeStatus = false;
       this.themeSymbol = '☾';
 
-      navDiv.style.backgroundColor = 'limegreen';
+      navDiv.style.backgroundColor = 'cornflowerblue';
       navDiv.style.color = 'black';
 
       themeBtn.style.backgroundColor = 'antiquewhite';
@@ -36,13 +36,13 @@ export class NavbarComponent implements OnInit {
       loginBtn.style.backgroundColor = 'antiquewhite';
       loginBtn.style.color = 'black';
 
-      footDiv.style.backgroundColor = 'coral';
+      footDiv.style.backgroundColor = 'cornflowerblue';
       footDiv.style.color = 'black';
 
-      optionsDiv.style.backgroundColor = 'chartreuse';
+      optionsDiv.style.backgroundColor = '#60a6bc';
       optionsDiv.style.color = 'black';
 
-      contentDiv.style.backgroundColor = 'blueviolet';
+      contentDiv.style.backgroundColor = '#24468e';
       contentDiv.style.color = 'black';
     } else {
       //else w którym polecenia będą wykonywane, gdy zmienna themeStatus będzie faszywa
